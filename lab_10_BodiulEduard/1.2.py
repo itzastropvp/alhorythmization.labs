@@ -1,2 +1,2 @@
-greet = lambda name: f'Hello, {name}!'
-print(greet('Petro'))
+greet = lambda name, greeting = 'Hello': f"{greeting}, {name}!"
+print(greet("Anna", "Hello"))
