@@ -6,7 +6,7 @@ def convert():
         fahrenheit = (celsius * 1.8) + 32
         result_label.configure(text=f"{round(fahrenheit, 1)} °F", text_color="white")
     except ValueError:
-        result_label.configure(text="Введите число!", text_color="#FF6666")
+        result_label.configure(text="Введіть число!", text_color="#FF6666")
 
 app = ctk.CTk()
 app.title("Конвертер")
